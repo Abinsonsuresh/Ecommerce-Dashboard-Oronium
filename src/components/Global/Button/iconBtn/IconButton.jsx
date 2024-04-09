@@ -2,7 +2,7 @@
 const IconButton = ({icon}) => {
   return (
     <div>
-    <button className='flex items-center gap-2 w-full p-[10px] rounded-lg bg-[#29384B] opacity-10'>
+    <button className='flex items-center gap-2 w-full px-2 py-2 rounded-lg bg-[#cacaca] '>
         {icon}
     </button>
 </div>
