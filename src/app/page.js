@@ -1,9 +1,10 @@
-import Image from "next/image";
-
+import MainHome from "@/Pages/Home/Main/MainHome";
 export default function Home() {
   return (
-   <div>
-    
-   </div>
+    <div>
+      <div >
+        <MainHome />
+      </div>
+    </div>
   );
 }
