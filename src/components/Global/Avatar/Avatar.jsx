@@ -1,9 +1,13 @@
-import React from 'react'
+import Image from "next/image";
 
-const Avatar = () => {
-  return (
-    <div>Avatar</div>
-  )
+
+const Avatar = ({icon}) => {
+    return (
+        <div>
+            <Image className="rounded-full " height={48} width={48} src={icon} alt="" />
+
+        </div>
+    )
 }
 
 export default Avatar
