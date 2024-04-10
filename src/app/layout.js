@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar/Main/Navbar";
 
 
 export const metadata = {
-  title: "Oronium E-Commerce Storep",
+  title: "Oronium E-Commerce Store",
   description: "Oronium E-Commerce Store Dashboard",
 };
 
