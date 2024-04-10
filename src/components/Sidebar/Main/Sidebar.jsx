@@ -20,7 +20,7 @@ const Sidebar = () => {
                                         <span className={selectedItem === com.id ? 'bg-[#e3a9ae] rounded-lg p-2' : ''}>
                                             {com.icon}
                                         </span>
-                                        <span className='text-[16px] leading-[24px]'>{com.item}</span>
+                                        <span className='text-[16px] UrbanistFont leading-[24px]'>{com.item}</span>
                                     </div>
                                 </div>
                             )
@@ -29,9 +29,9 @@ const Sidebar = () => {
 
                 </div>
                     <div className='flex flex-col justify-start mt-[84px] py-[12px] pl-[12px]'>
-                        <span>Theme</span>
+                        <span className='UrbanistFont'>Theme</span>
                         <div className='flex items-center mt-4 rounded-[8px] bg-[#eae9e9] p-[12px] justify-between'>
-                            <span className='text-[14px]'>Primary color</span>
+                            <span className='text-[14px] UrbanistFont'>Primary color</span>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="8" cy="8" r="8" fill="#C63E4A" />
                             </svg>
