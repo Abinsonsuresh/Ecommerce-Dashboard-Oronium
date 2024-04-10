@@ -9,7 +9,7 @@ const MainHome = () => {
 
   return (
 
-    <div className='  overflow-y-scroll scroll-smooth flex-col w-full max-h-screen overflow-hidden'>
+    <div className='  overflow-y-scroll scroll-smooth flex-col w-full max-h-[90vh] overflow-hidden no-scrollbar'>
 
       <div className="grid grid-cols-1 md:grid-cols-2 p-6 pr-12">
         <div className=' max-w-[492px] '>
