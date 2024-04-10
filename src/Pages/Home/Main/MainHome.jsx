@@ -52,9 +52,9 @@ const MainHome = () => {
                 {
                   SMIcons.map((com) => {
                     return (
-                      <div key={com.id} className='flex items-center gap-3 mt-2'>
+                      <div key={com.id} className='flex w-full  items-center gap-3 mt-2'>
                         <DropDownBtn com={com} />
-                        <input type="text" className='max-w-[388px] UrbanistFont md:w-[388px] h-[44px] py-[11px] px-[16px] border-[1px] outline-none rounded-[8px]' placeholder='martin.store' />
+                        <input type="text" className='w-full UrbanistFont  h-[44px] py-[11px] px-[16px] border-[1px] outline-none rounded-[8px]' placeholder='martin.store' />
                       </div>
                     )
                   })
