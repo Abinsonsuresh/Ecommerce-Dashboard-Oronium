@@ -1,11 +1,11 @@
 
-const IconButton = ({icon}) => {
+const IconButton = ({ icon }) => {
   return (
     <div>
-    <button className='flex items-center gap-2 w-full px-2 py-2 rounded-lg bg-[#cacaca] '>
+      <button className='flex items-center gap-2 w-full px-2 py-2 rounded-lg bg-[#cacaca] '>
         {icon}
-    </button>
-</div>
+      </button>
+    </div>
   )
 }
 
