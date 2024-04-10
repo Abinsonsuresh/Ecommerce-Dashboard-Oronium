@@ -17,7 +17,7 @@ const MainHome = () => {
             <h2 className='mb-4 text-[20px] font-[700] UrbanistFont leading-[28px]'>Header</h2>
 
             <div>
-              <span className='text-[16px] font-[600] leading-[28px] UrbanistFont text-[#29384bb9]'>Store logo</span>
+              <span className='oronium-regular-font  text-[#29384bb9]'>Store logo</span>
               <div className='h-[118px] w-full rounded-[8px] border-2 flex justify-center items-center  border-dashed mt-2'>
                 <p>H</p>
               </div>
@@ -30,7 +30,7 @@ const MainHome = () => {
             <h2 className='my-4 text-[20px] font-[700] UrbanistFont leading-[28px] '>Footer</h2>
 
             <div>
-              <span className='text-[16px] font-[600] UrbanistFont leading-[28px] text-[#29384bb9]'>Footer text</span>
+              <span className='oronium-regular-font   text-[#29384bb9]'>Footer text</span>
               <div className='mt-2'>
                 <input type="text" className='w-full h-[54px] UrbanistFont p-[16px] border-[1px] outline-none rounded-[8px]' placeholder='Live your fashion' />
               </div>
@@ -40,7 +40,7 @@ const MainHome = () => {
           {/* SOCIAL MEDIA SECTION */}
 
           <div className='mt-4'>
-            <span className='text-[16px] font-[600] leading-[28px] UrbanistFont text-[#29384bb9]'>Social Media</span>
+            <span className='oronium-regular-font  text-[#29384bb9]'>Social Media</span>
             <div >
               {
                 SMIcons.map((com) => {

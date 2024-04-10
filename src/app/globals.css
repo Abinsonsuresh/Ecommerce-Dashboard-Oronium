@@ -14,3 +14,7 @@
 .UrbanistFont {
     font-family: var(--font-Urbanist);
 }
+
+.oronium-regular-font {
+    @apply text-[16px] font-[600] UrbanistFont leading-[28px];
+  }
