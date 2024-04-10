@@ -75,7 +75,7 @@ body::-webkit-scrollbar {
   }
 
   .oronium-Mockup {
-    @apply w-[595px]  max-h-[746px] p-4  rounded-[24px] shadow-lg border border-[#edebeb] hidden xl:flex flex-col gap-5 justify-center items-center;
+    @apply w-[595px]  max-h-[546px] p-4  rounded-[24px] shadow-lg border border-[#edebeb] hidden xl:flex flex-col gap-5 justify-center items-center;
   }
 
   .oronium-DropDownBtn {
