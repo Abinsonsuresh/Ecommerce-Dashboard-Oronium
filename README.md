@@ -21,12 +21,12 @@
 ## File Structure:
 
 * **Components**
--> Global: Buttons,AvatarIcon,Dropdown
--> Navbar:Main(Navbar)
--> Sidebar: Data,Main(Sidebar component)
+- Global: Buttons,AvatarIcon,Dropdown
+- Navbar:Main(Navbar)
+- Sidebar: Data,Main(Sidebar component)
 
 * **Pages**
--> Home: Data,Main(MainHome component)
+- Home: Data,Main(MainHome component)
 
 
 
