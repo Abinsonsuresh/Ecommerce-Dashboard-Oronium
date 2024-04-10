@@ -21,7 +21,7 @@ const Sidebar = () => {
                                 <div key={com.id} onClick={() => handleItemClick(com.id)} className={selectedItem === com.id ? 'selected gap-[8px]  cursor-pointer w-full bg-[#FCF3F4]   h-[60px]  rounded-[6px] py-[12px] pl-[12px]' : 'w-[216px] h-[60px]  rounded-[6px] gap-[8px]  py-[12px] pl-[12px] pr-[16px] cursor-pointer'}>
                                     <div className='flex gap-3 items-center '>
                                         {/* Selected item icon bg change */}
-                                        <span className={selectedItem === com.id ? 'bg-[#ff293b] fill-white stroke-white rounded-lg p-2' : ''}>
+                                        <span className={selectedItem === com.id ? 'bg-[#ff293b] fill-white stroke-white rounded-lg p-1' : ''}>
                                             {com.icon}
                                         </span>
                                         <span className='text-[16px] UrbanistFont leading-[24px]'>{com.item}</span>
