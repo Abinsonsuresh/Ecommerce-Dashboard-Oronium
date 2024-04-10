@@ -12,7 +12,7 @@ const Sidebar = () => {
 
     return (
         <div>
-            <div className='flex flex-col min-h-[85vh]  w-[264px] border-r border-[#e7e5e5] p-4 pt-8'>
+            <div className='flex flex-col min-h-[90vh]  w-[264px] border-r border-[#e7e5e5] p-4 pt-8'>
                 <div className='flex items-center w-full flex-col'>
                     {/* External js file (SCData) containing the sidebar elements data is mapped here */}
                     {
