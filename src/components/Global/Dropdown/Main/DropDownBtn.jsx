@@ -29,7 +29,7 @@ const DropDownBtn = ({ com }) => {
                     <button id="dropdownSmallButton" className="inline-flex items-center text-center  focus:outline-none " type="button">{selectedIcon}
                     </button>
                     <svg className="w-2 h-2 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                        <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                     </svg>
                 </div>
 
