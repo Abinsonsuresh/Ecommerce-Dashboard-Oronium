@@ -34,6 +34,42 @@ body::-webkit-scrollbar {
     font-family: var(--font-Urbanist);
 }
 
+
+
+
+
+.oronium-regular-rounded {
+    @apply rounded-[8px];
+  }
+
 .oronium-regular-font {
     @apply text-[16px] font-[600] UrbanistFont leading-[28px];
+  }
+
+  .oronium-regular-font-2 {
+    @apply text-[18px] leading-[26px];
+  }
+
+  .oronium-regular-font-3 {
+    @apply text-[16px]  leading-[24px];
+  }
+
+  .oronium-regular-font-4 {
+    @apply text-[20px] font-[700] leading-[28px];
+  }
+
+  .oronium-Navbar {
+    @apply  max-h-[106px] border-b border-[#e7e5e5] py-[26px] px-[24px];
+  }
+
+  .oronium-Sidebar {
+    @apply min-h-[90vh]  w-[264px] border-r border-[#e7e5e5] p-4 pt-8;
+  }
+
+  .oronium-Sidebar-el-selected {
+    @apply flex items-center gap-[8px]  cursor-pointer w-full bg-[#FCF3F4]   h-[60px]  rounded-[6px] py-[12px] pl-[12px] ;
+  }
+
+  .oronium-Sidebar-el-not-selected {
+    @apply w-[216px] h-[60px]  rounded-[6px] gap-[8px]  py-[12px] pl-[12px] pr-[16px] cursor-pointer;
   }

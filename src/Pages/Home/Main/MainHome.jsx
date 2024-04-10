@@ -15,11 +15,11 @@ const MainHome = () => {
         <div className=' max-w-[492px] '>
           {/* HEADER SECTION */}
           <div>
-            <h2 className='mb-4 text-[20px] font-[700] UrbanistFont leading-[28px]'>Header</h2>
+            <h2 className='mb-4  UrbanistFont oronium-regular-font-4'>Header</h2>
 
             <div>
               <span className='oronium-regular-font  text-[#29384bb9]'>Store logo</span>
-              <div className='h-[118px] w-full rounded-[8px] border-2 flex justify-center items-center  border-dashed mt-2 cursor-pointer hover:bg-[#3939392d]'>
+              <div className='h-[118px] w-full oronium-regular-rounded border-2 flex justify-center items-center  border-dashed mt-2 cursor-pointer hover:bg-[#3939392d]'>
                 <span>
                   {<UploadIcon />}
 
@@ -36,7 +36,7 @@ const MainHome = () => {
             <div>
               <span className='oronium-regular-font   text-[#29384bb9]'>Footer text</span>
               <div className='mt-2'>
-                <input type="text" className='w-full h-[54px] UrbanistFont p-[16px] border-[1px] outline-none rounded-[8px]' placeholder='Live your fashion' />
+                <input type="text" className='w-full h-[54px] UrbanistFont p-[16px] border-[1px] outline-none oronium-regular-rounded' placeholder='Live your fashion' />
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const MainHome = () => {
                   return (
                     <div key={com.id} className='flex w-full  items-center gap-3 mt-2'>
                       <DropDownBtn com={com} />
-                      <input type="text" className='w-full UrbanistFont  h-[44px] py-[11px] px-[16px] border-[1px] outline-none rounded-[8px]' placeholder='martin.store' />
+                      <input type="text" className='w-full UrbanistFont  h-[44px] py-[11px] px-[16px] border-[1px] outline-none oronium-regular-rounded' placeholder='martin.store' />
                     </div>
                   )
                 })
@@ -68,7 +68,7 @@ const MainHome = () => {
             <div>
               <span className='oronium-regular-font   text-[#29384bb9]'>Store name</span>
               <div className='mt-2'>
-                <input type="text" className='w-full h-[54px] UrbanistFont p-[16px] border-[1px] outline-none rounded-[8px]' placeholder='Here & Now' />
+                <input type="text" className='w-full h-[54px] UrbanistFont p-[16px] border-[1px] outline-none oronium-regular-rounded' placeholder='Here & Now' />
               </div>
             </div>
           </div>

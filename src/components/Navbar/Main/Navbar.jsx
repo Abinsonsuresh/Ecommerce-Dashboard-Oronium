@@ -7,13 +7,13 @@ import { BellIcon, Play } from "@/assets/svg";
 
 const Navbar = () => {
     return (
-        <div className="max-w-screen max-h-[106px] border-b border-[#e7e5e5] py-[26px] px-[24px]">
+        <div className="max-w-screen oronium-Navbar">
             <div className="flex justify-between items-center  max-h-[54px]">
                 {/* Logo */}
                 <div className="logo">
                     <div className="flex items-center gap-2">
                         <Image className="rounded-lg " priority height={54} width={54} src={"/logo.svg"} alt="" />
-                        <span className="text-[18px] UrbanistFont leading-[26px] hidden md:block">Oronium E-Commerce Store</span>
+                        <span className=" UrbanistFont oronium-regular-font-2  hidden md:block">Oronium E-Commerce Store</span>
                     </div>
                 </div>
                 {/* Other Navbar components -right-area */}
