@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className="logo">
                     <div className="flex items-center gap-2">
                         <Image className="rounded-lg " priority height={54} width={54} src={"/logo.svg"} alt="" />
-                        <span className="text-[18px] UrbanistFont leading-[26px]">Oronium E-Commerce Store</span>
+                        <span className="text-[18px] UrbanistFont leading-[26px] hidden md:block">Oronium E-Commerce Store</span>
                     </div>
                 </div>
                 {/* Other Navbar components -right-area */}
