@@ -12,7 +12,7 @@ const MainHome = () => {
           <Sidebar />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 p-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 p-6 pr-12">
           <div className=' max-w-[492px] '>
             {/* HEADER SECTION */}
             <div>
@@ -70,12 +70,12 @@ const MainHome = () => {
 
 
           {/* MOCKUP SECTION */} 
-          <div className='w-[595px]  max-h-[746px] rounded-[24px] shadow-lg border border-[#edebeb] hidden xl:flex flex-col gap-5 justify-center items-center'>
-            <div className='w-[551px] h-[240px] border  rounded-[16px]'>
+          <div className='w-[595px]  max-h-[746px] p-4  rounded-[24px] shadow-lg border border-[#edebeb] hidden xl:flex flex-col gap-5 justify-center items-center'>
+            <div className='w-full h-[240px] border  rounded-[16px]'>
 
             </div>
 
-            <div className='w-[551px] h-[240px] border  rounded-[16px]'>
+            <div className='w-full h-[240px] border  rounded-[16px]'>
 
             </div>
           </div>
