@@ -59,7 +59,7 @@ const MainHome = () => {
               }
 
             </div>
-            <span className='text-[14px] font-[500] my-1 text-[#29384b94]'>Resolution (32x32px)</span>
+            <span className='text-[14px] font-[500] my-2 text-[#29384b94]'>Resolution (32x32px)</span>
           </div>
 
 
