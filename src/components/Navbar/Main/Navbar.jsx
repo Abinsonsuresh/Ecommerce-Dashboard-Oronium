@@ -8,7 +8,7 @@ import { BellIcon, Play } from "@/assets/svg";
 const Navbar = () => {
     return (
         <div className="max-w-screen max-h-[106px] border-b border-[#e7e5e5] py-[26px] px-[24px]">
-            <div className="flex justify-between items-center max-w-[1370px] max-h-[54px]">
+            <div className="flex justify-between items-center  max-h-[54px]">
                 {/* Logo */}
                 <div className="logo">
                     <div className="flex items-center gap-2">
