@@ -1,8 +1,20 @@
-import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Navbar from "@/components/Navbar/Main/Navbar";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Inter, Roboto_Mono, Urbanist } from 'next/font/google'
+ 
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+})
+ 
+ 
+const Urbanist_font = Urbanist({
+  subsets: ['latin'],
+  variable: '--font-Urbanist',
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Oronium E-Commerce Storep",
@@ -12,10 +24,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={inter.className}>
-        <Navbar/>
+      <body suppressHydrationWarning={true} className={`${inter.variable} ${Urbanist_font.variable} `}>
+        <Navbar />
         {children}
-        </body>
+      </body>
     </html>
   );
 }

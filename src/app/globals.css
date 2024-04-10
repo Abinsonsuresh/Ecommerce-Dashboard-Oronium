@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.InterFont {
+    font-family: var(--font-inter);
+}
+
+.RoboFont {
+    font-family: var(--font-roboto-mono);
+}
+
+
+.UrbanistFont {
+    font-family: var(--font-Urbanist);
+}

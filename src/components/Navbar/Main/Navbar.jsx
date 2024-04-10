@@ -10,9 +10,9 @@ const Navbar = () => {
         <div className="max-w-[1441px] max-h-[106px] border-b border-[#e7e5e5] py-[26px] px-[24px]">
             <div className="flex justify-between items-center max-w-[1370px] max-h-[54px]">
                 <div className="logo">
-                    <div className="flex items-center gap-3">
-                        <Image className="rounded-lg " height={54} width={54} src={"/logo.svg"} alt="" />
-                        <span className="text-[18px] leading-[26px]">Oronium E-Commerce Store</span>
+                    <div className="flex items-center gap-2">
+                        <Image className="rounded-lg " priority height={54} width={54} src={"/logo.svg"} alt="" />
+                        <span className="text-[18px] UrbanistFont leading-[26px]">Oronium E-Commerce Store</span>
                     </div>
                 </div>
                 <div className="components flex items-center gap-4">
