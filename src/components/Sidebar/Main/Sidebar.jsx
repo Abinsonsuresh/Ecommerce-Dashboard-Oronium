@@ -5,18 +5,22 @@ import { SCData } from '../Data/SidebarComponentsData'
 const Sidebar = () => {
     const [selectedItem, setSelectedItem] = useState(null);
 
+    // Function to set the selected element in the sidebar the id of the element is passed in the fn to validate
     const handleItemClick = (id) => {
         setSelectedItem(id);
     };
+
     return (
         <div>
             <div className='flex flex-col min-h-[85vh]  w-[264px] border-r border-[#e7e5e5] p-4 pt-8'>
                 <div className='flex items-center w-full flex-col'>
+                    {/* External js file (SCData) containing the sidebar elements data is mapped here */}
                     {
                         SCData.map((com) => {
                             return (
                                 <div key={com.id} onClick={() => handleItemClick(com.id)} className={selectedItem === com.id ? 'selected gap-[8px]  cursor-pointer w-full bg-[#FCF3F4]  h-[60px]  rounded-[6px] py-[12px] pl-[12px]' : 'w-[216px] h-[60px]  rounded-[6px] gap-[8px]  py-[12px] pl-[12px] pr-[16px] cursor-pointer'}>
                                     <div className='flex gap-3 items-center '>
+                                        {/* Selected item icon bg change */}
                                         <span className={selectedItem === com.id ? 'bg-[#e3a9ae] rounded-lg p-2' : ''}>
                                             {com.icon}
                                         </span>
