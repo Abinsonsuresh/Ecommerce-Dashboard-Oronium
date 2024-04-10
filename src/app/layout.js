@@ -1,20 +1,7 @@
-
 import "./globals.css";
+import { Urbanist_font, inter } from "@/utils/fonts/fonts";
 import Navbar from "@/components/Navbar/Main/Navbar";
-import { Inter, Roboto_Mono, Urbanist } from 'next/font/google'
- 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-})
- 
- 
-const Urbanist_font = Urbanist({
-  subsets: ['latin'],
-  variable: '--font-Urbanist',
-  display: 'swap',
-})
+
 
 export const metadata = {
   title: "Oronium E-Commerce Storep",
