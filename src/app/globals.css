@@ -58,6 +58,10 @@ body::-webkit-scrollbar {
     @apply text-[20px] font-[700] leading-[28px];
   }
 
+  .oronium-text-gray {
+    @apply  text-[#29384bb9];
+  }
+
   .oronium-Navbar {
     @apply  max-h-[106px] border-b border-[#e7e5e5] py-[26px] px-[24px];
   }
@@ -72,4 +76,12 @@ body::-webkit-scrollbar {
 
   .oronium-Sidebar-el-not-selected {
     @apply w-[216px] h-[60px]  rounded-[6px] gap-[8px]  py-[12px] pl-[12px] pr-[16px] cursor-pointer;
+  }
+
+  .oronium-Mockup {
+    @apply w-[595px]  max-h-[746px] p-4  rounded-[24px] shadow-lg border border-[#edebeb] hidden xl:flex flex-col gap-5 justify-center items-center;
+  }
+
+  .oronium-DropDownBtn {
+    @apply flex items-center cursor-pointer  justify-between max-w-[76px] h-[44px] py-[12px] pl-[12px] pr-[16px] rounded-[8px]  border text-gray-700;
   }

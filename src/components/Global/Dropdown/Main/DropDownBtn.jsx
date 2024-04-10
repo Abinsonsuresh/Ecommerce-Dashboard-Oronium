@@ -27,9 +27,9 @@ const DropDownBtn = ({ com }) => {
     return (
         <div>
             <div className='relative'>
-                <div onClick={toggleDropdown} className="flex items-center cursor-pointer  justify-between max-w-[76px] h-[44px] py-[12px] pl-[12px] pr-[16px] rounded-[8px]  border text-gray-700">
+                <div onClick={toggleDropdown} className="oronium-DropDownBtn">
                     {/* Selected Icon will be rendered as default */}
-                    <button id="dropdownSmallButton" className="inline-flex items-center text-center  focus:outline-none " type="button">{selectedIcon}
+                    <button  className="inline-flex items-center text-center  focus:outline-none " type="button">{selectedIcon}
                     </button>
                     {/* Dropdown icon */}
                     <svg className="w-2 h-2 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
