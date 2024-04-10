@@ -71,13 +71,13 @@ const MainHome = () => {
 
           {/* MOCKUP SECTION */} 
           <div className='w-[595px]  max-h-[746px] p-4  rounded-[24px] shadow-lg border border-[#edebeb] hidden xl:flex flex-col gap-5 justify-center items-center'>
-            <div className='w-full h-[240px] border  rounded-[16px]'>
+            {/* <div className='w-full h-[240px] border  rounded-[16px]'>
 
             </div>
 
             <div className='w-full h-[240px] border  rounded-[16px]'>
 
-            </div>
+            </div> */}
           </div>
         </div>
 
